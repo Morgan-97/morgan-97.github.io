@@ -7,13 +7,14 @@
       margin: 0;
       overflow: hidden;
       height: 100%;
+      background-color: #838383;
   }
   
+/*W3 Schools*\
 /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
-  
   @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -44,7 +45,53 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
-  p {
-      color: red;
 
+  .navbar {
+    overflow: hidden;
+    background-color: black;  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
+  .navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    width: 19.65%;
+  }
+  .navbar a:hover {
+    background-color: grey;
+    color: black; 
+  }
+
+  /* ul {
+    list-style-type: none;
+    background-color: black;
+    
+  } */
+  
+  /* li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-inline: 3%;
+  }
+  
+  li a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  } */
+
+img{
+width: 20%;
+height: auto;
+} 
+
+
+  
