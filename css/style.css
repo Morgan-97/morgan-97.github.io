@@ -8,6 +8,12 @@
       height: 100%;
       background-color: #838383;
   }
+  h1,
+  h2,
+  h3,
+  p{ font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
   
 /*W3 Schools*\
 /* For mobile phones: */
@@ -51,7 +57,7 @@
       color: #f2f2f2;
       text-align: center;
       text-decoration: none;
-      width: 19.24%;
+      width: 19.5%;
     }
   }
 
@@ -72,10 +78,15 @@
     img{
       width: 20%;
       height: auto;
+    }
+    .navbar a {
+      display: inline-block;
+      color: #f2f2f2;
+      text-align: center;
+      text-decoration: none;
+      width: 19.83%;
     } 
-
   }
-
   .navbar {
     overflow: hidden;
     background-color: black;  
@@ -88,12 +99,11 @@
     background-color: grey;
     color: black; 
   }
-
-
-
 div {
-  border: solid 1px black;
-  padding: 10%;
+  border-bottom: solid 1px black;
+}
+hr{
+  border: solid 1px red;
 }
 
   
