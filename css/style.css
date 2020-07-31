@@ -4,17 +4,19 @@
   }
   html,
   body {
-      margin: 0;
       height: 100%;
       background-color: #838383;
+      margin-left: 2%;
+      margin-right: 2%;
   }
   h1,
   h2,
   h3,
+  h4,
   p{ font-family: Arial, Helvetica, sans-serif;
     color: white;
   }
-  
+
 /*W3 Schools*\
 /* For mobile phones: */
   [class*="col-"] {
@@ -31,6 +33,11 @@
       text-align: center;
       text-decoration: none;
       width: 18.99%;
+    }
+    #me {
+      border-radius: 25%;
+      width:30%;
+      height: auto;
     }
   }
 
@@ -49,7 +56,7 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     img{
-      width: 30%;
+      width: 20%;
       height: auto;
     }
     .navbar a {
@@ -57,7 +64,12 @@
       color: #f2f2f2;
       text-align: center;
       text-decoration: none;
-      width: 19.5%;
+      width: 19.3%;
+    }
+    #me {
+      border-radius: 25%;
+      width:30%;
+      height: auto;
     }
   }
 
@@ -84,26 +96,50 @@
       color: #f2f2f2;
       text-align: center;
       text-decoration: none;
-      width: 19.83%;
+      width: 19.5%;
     } 
+    #me {
+      border-radius: 25%;
+      width:27%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
   }
   .navbar {
     overflow: hidden;
     background-color: black;  
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 92%;
   }
 
   .navbar a:hover {
     background-color: grey;
     color: black; 
   }
-div {
-  border-bottom: solid 1px black;
-}
+
 hr{
   border: solid 1px red;
 }
+.left{
+  float: left;
+  padding-right: 2%;
+}
+.right{
+  float: right;
+  padding-left: 2%;
+}
+.justify{
+  text-align: justify;
+}
+.center{
+  text-align: center;
+}
 
-  
+#contact{
+  margin-bottom: 5%;
+}
+
