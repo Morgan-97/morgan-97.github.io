@@ -5,7 +5,7 @@
   html,
   body {
       height: 100%;
-      background-color: #838383;
+      background-color: #b3b3ff;
       margin-left: 2%;
       margin-right: 2%;
   }
@@ -71,6 +71,10 @@
       width:30%;
       height: auto;
     }
+    .bottom{
+      /* border-bottom: solid 1px red; */
+      padding-bottom: 50%;
+    }
   }
 
   @media only screen and (min-width: 768px) {
@@ -106,7 +110,6 @@
       margin-left: auto;
       margin-right: auto;
     }
-
   }
   .navbar {
     overflow: hidden;
@@ -122,7 +125,11 @@
   }
 
 hr{
-  border: solid 1px red;
+  color: red;
+}
+div{
+  border-radius: 5em;
+  padding: 5%;
 }
 .left{
   float: left;
@@ -138,8 +145,26 @@ hr{
 .center{
   text-align: center;
 }
+/* #contact{
+  margin-bottom: 10%;
+} */
 
-#contact{
-  margin-bottom: 5%;
+.teal{
+  background-color: #90fecd;
 }
 
+.dteal{
+  background-color: #42b282;
+}
+
+.lteal{
+  background-color: #75ffc3;
+}
+
+.red{
+  background-color: #b1422f;
+}
+
+.lred{
+  background-color: #ff8a76;
+}
