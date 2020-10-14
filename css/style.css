@@ -7,7 +7,7 @@
 html,
 body {
     height: 100%;
-    background-color: #b3b3ff;
+    background-color: white;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -18,7 +18,7 @@ h3,
 h4,
 p {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
 
@@ -30,17 +30,7 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-    /* img{
-    width: 40%;
-    height: auto;
-    }  */
-    /* .navbar a {
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      text-decoration: none;
-      width: 18.99%;
-    } */
+
     #me {
         border-radius: 25%;
         width: 30%;
@@ -86,24 +76,13 @@ p {
     .col-s-12 {
         width: 100%;
     }
-    /* img{
-      width: 20%;
-      height: auto;
-    } */
-    /* .navbar a {
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      text-decoration: none;
-      width: 19.3%;
-    } */
+
     #me {
         border-radius: 25%;
         width: 30%;
         height: auto;
     }
     .bottom {
-        /* border-bottom: solid 1px red; */
         padding-bottom: 50%;
     }
 }
@@ -181,54 +160,10 @@ p {
     color: black;
 }
 
-hr {
-    color: red;
-}
 
 div {
     border-radius: 5em;
-    padding: 5%;
-}
-
-.left {
-    float: left;
-    padding-right: 2%;
-}
-
-.right {
-    float: right;
-    padding-left: 2%;
-}
-
-.justify {
+    padding: 1%;
     text-align: justify;
 }
 
-.center {
-    text-align: center;
-}
-
-
-/* #contact{
-  margin-bottom: 10%;
-} */
-
-.teal {
-    background-color: #90fecd;
-}
-
-.dteal {
-    background-color: #42b282;
-}
-
-.lteal {
-    background-color: #75ffc3;
-}
-
-.red {
-    background-color: #b1422f;
-}
-
-.lred {
-    background-color: #ff8a76;
-}
