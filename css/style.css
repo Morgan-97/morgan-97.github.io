@@ -21,6 +21,12 @@ p {
     color: black;
 }
 
+h1,
+h2,
+h4{
+    text-align: center;
+}
+
 
 /*W3 Schools*\
 /* For mobile phones: */
@@ -170,4 +176,5 @@ img{
     width: 100%;
     height: auto;
 }
+
 
