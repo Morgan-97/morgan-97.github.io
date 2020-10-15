@@ -1,170 +1,169 @@
 /*Responsive design code taken from https://www.w3schools.com/Css/tryit.asp?filename=tryresponsive_col-s*/
+
 * {
     box-sizing: border-box;
-  }
-  html,
-  body {
-      height: 100%;
-      background-color: #b3b3ff;
-      margin-left: 2%;
-      margin-right: 2%;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  p{ font-family: Arial, Helvetica, sans-serif;
-    color: white;
-  }
+}
+
+html,
+body {
+    height: 100%;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
 
 /*W3 Schools*\
 /* For mobile phones: */
-  [class*="col-"] {
+
+[class*="col-"] {
     width: 100%;
-  }
-  @media only screen and (max-width: 600px) {
-    img{
-    width: 40%;
-    height: auto;
-    } 
-    .navbar a {
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      text-decoration: none;
-      width: 18.99%;
-    }
-    #me {
-      border-radius: 25%;
-      width:30%;
-      height: auto;
-    }
-  }
+}
 
-  @media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
+
+    #me {
+        border-radius: 25%;
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
     /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-    img{
-      width: 20%;
-      height: auto;
+    .col-s-1 {
+        width: 8.33%;
     }
-    .navbar a {
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      text-decoration: none;
-      width: 19.3%;
+    .col-s-2 {
+        width: 16.66%;
     }
-    #me {
-      border-radius: 25%;
-      width:30%;
-      height: auto;
+    .col-s-3 {
+        width: 25%;
     }
-    .bottom{
-      /* border-bottom: solid 1px red; */
-      padding-bottom: 50%;
+    .col-s-4 {
+        width: 33.33%;
     }
-  }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
 
-  @media only screen and (min-width: 768px) {
+    #me {
+        border-radius: 25%;
+        width: 30%;
+        height: auto;
+    }
+    .bottom {
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-    img{
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    /* img{
       width: 20%;
       height: auto;
-    }
-    .navbar a {
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      text-decoration: none;
-      width: 19.5%;
-    } 
+    } */
     #me {
-      border-radius: 25%;
-      width:27%;
-      height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+        border-radius: 25%;
+        width: 27%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-  }
-  .navbar {
+}
+
+.navbar {
     overflow: hidden;
-    background-color: black;  
+    background-color: black;
     position: fixed;
-    bottom: 0;
-    width: 92%;
-  }
+    /* bottom: 0; */
+    width: 100%;
+}
 
-  .navbar a:hover {
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
+
+.navbar a:hover {
     background-color: grey;
-    color: black; 
-  }
-
-hr{
-  color: red;
-}
-div{
-  border-radius: 5em;
-  padding: 5%;
-}
-.left{
-  float: left;
-  padding-right: 2%;
-}
-.right{
-  float: right;
-  padding-left: 2%;
-}
-.justify{
-  text-align: justify;
-}
-.center{
-  text-align: center;
-}
-/* #contact{
-  margin-bottom: 10%;
-} */
-
-.teal{
-  background-color: #90fecd;
+    color: black;
 }
 
-.dteal{
-  background-color: #42b282;
+
+div {
+    border-radius: 5em;
+    padding: 1%;
+    text-align: justify;
 }
 
-.lteal{
-  background-color: #75ffc3;
-}
-
-.red{
-  background-color: #b1422f;
-}
-
-.lred{
-  background-color: #ff8a76;
-}
