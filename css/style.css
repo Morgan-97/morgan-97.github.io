@@ -172,8 +172,7 @@ h4{
 
 
 div {
-    border-radius: 5em;
-    padding: 1%;
+    border-radius: 2em;
     text-align: justify;
 }
 img{
@@ -194,7 +193,7 @@ background-color: #adadc2;
 background-color: #c2adad;
 }
 #blog   {
-background-color: #c2adad;
+background-color: #adadc2;
 }
 
 
