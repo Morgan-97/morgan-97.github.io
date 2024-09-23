@@ -8,7 +8,7 @@
 html,
 body {
     height: 100%;
-    background-color: #adadc2;
+    background-color: #adc2ad;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -179,6 +179,22 @@ div {
 img{
     width: 100%;
     height: auto;
+}
+
+#intro   {
+background-color: #adadc2;
+}
+#about   {
+background-color: #c2adad;
+}
+#cv   {
+background-color: #adadc2;
+}
+#projects   {
+background-color: #c2adad;
+}
+#blog   {
+background-color: #c2adad;
 }
 
 
